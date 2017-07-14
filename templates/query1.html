@@ -1,0 +1,10 @@
+<body> 
+XYZ foods <br>
+<br>
+{% for data in range(0,l): %}
+<br><img src="data:img/jpg;base64,{{img[data]}}"><br><br>
+<b>Name:</b>{{msg[data][0]}}<br><b> Calorie:</b>{{msg[data][1]}}<br><b> Type of food:</b> {{msg[data][2]}}<br><br>
+{% endfor %}
+</table>
+</body>
+
