@@ -6,9 +6,9 @@ import base64
 
 app = Flask(__name__)
 
-host = 'prachiserver.mysql.database.azure.com'
-user = 'serveradminlogin@prachiserver'
-password = 'RanjanaGoel07'
+host = '****.mysql.database.azure.com'
+user = '*****'
+password = '*****'
 dbname = 'food'
 sqldb = MySQLdb.connect(host=host,user=user,passwd=password,db=dbname)
 cur = sqldb.cursor()
